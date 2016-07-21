@@ -4,12 +4,13 @@ A tail-implementation in crystal.
 
 ## Installation
 
-Add it to `Projectfile`
 
-```crystal
-deps do
-  github "Thor77/tail.cr"
-end
+Add this to your application's `shard.yml`:
+
+```yaml
+dependencies:
+  tail:
+    github: Thor77/tail.cr
 ```
 
 ## Usage
